@@ -1,0 +1,14 @@
+{
+    "name": "search",
+    "description": "搜索外部信息，如天气、新闻、实时信息等",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "搜索关键词，如：今天天气、最新新闻"
+            }
+        },
+        "required": ["query"]
+    }
+}

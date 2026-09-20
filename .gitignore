@@ -1,0 +1,37 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# === 运行产物 ===
+tempwav/
+image/
+*.wav
+*.pkl
+airunpy.py
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === 模型权重（自行下载） ===
+*.ckpt
+*.pth
+*.safetensors
+
+# === GPT-SoVITS 本体（自行下载） ===
+GPT-SoVITS*/
+!GPT-SoVITS-v2-240821/
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+
+# === 敏感配置（带真实 API key 的 init.json） ===
+# 请自行复制 init.json 填入你的 key
+init.local.json

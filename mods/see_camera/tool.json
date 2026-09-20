@@ -1,0 +1,8 @@
+{
+    "name": "see_camera",
+    "description": "调用摄像头拍照片，分析照片中人物的状态和表情",
+    "parameters": {
+        "type": "object",
+        "properties": {}
+    }
+}

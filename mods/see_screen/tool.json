@@ -1,0 +1,8 @@
+{
+    "name": "see_screen",
+    "description": "截取当前屏幕画面，分析屏幕内容",
+    "parameters": {
+        "type": "object",
+        "properties": {}
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "do_computer",
+    "description": "执行电脑操作，如打开软件、搜索文件、点击按钮等",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "command": {
+                "type": "string",
+                "description": "要执行的电脑操作，如：打开微信、打开Edge浏览器"
+            }
+        },
+        "required": ["command"]
+    }
+}
